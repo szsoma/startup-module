@@ -1,0 +1,129 @@
+/* Raleway Google font */
+@import url('https://fonts.googleapis.com/css?family=Raleway:300,500,900');
+
+html {
+    font-size: 7px;
+}
+
+body {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 300;
+    font-size: 1.6rem;
+    line-height: 1.7;
+    color: #fff;
+    text-align: center;
+}
+
+.cards img {
+    margin: 0 auto;
+    box-shadow: 0 20px 30px -15px rgba(5, 109, 139, .4);
+}
+
+.text-group {
+    width:  100%;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.cards embed {
+    width: 20px;
+    height: 27px;
+}
+
+.group-bottom {
+    align-self: flex-end;
+}
+
+.group-middle {
+    align-self: center;
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    margin: 4rem 0;
+}
+
+.number, 
+.text {
+    font-weight: 500;
+    font-size: 4rem;
+    z-index: 3;
+    position: absolute;
+    text-align: center;
+}
+
+.number {
+    margin-top: 3rem;
+}
+
+.text {
+    margin-bottom: 3rem;
+}
+
+.col-xs-15,
+.col-sm-15,
+.col-md-15,
+.col-lg-15 {
+    position: relative;
+    min-height: 1px;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+.col-xs-15 {
+    width: 20%;
+    float: left;
+}
+
+
+@media screen and ( min-width: 576px ){
+
+}
+
+@media screen and ( min-width: 768px ){
+    html{
+        font-size: 8px;
+    }
+
+    .col-sm-15 {
+        width: 20%;
+        float: left;
+    }
+}
+
+@media screen and ( min-width: 992px ){
+    html{
+        font-size: 9px;
+    }
+  
+    .col-md-15 {
+        width: 20%;
+        float: left;
+    }
+
+    .number, 
+    .text {
+        font-size: 3rem;
+    }
+}
+@media screen and ( min-width: 1200px ) {
+
+    html {
+        font-size: 10px;
+    }
+
+    .col-lg-15 {
+        width: 20%;
+        float: left;
+    }
+
+    .number, 
+    .text {
+        font-size: 3rem;
+    }
+
+    .innonic-way {
+        margin: auto 6rem;
+    }
+}
